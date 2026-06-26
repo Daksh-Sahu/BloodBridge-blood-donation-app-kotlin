@@ -1,0 +1,5 @@
+<!-- photo_upload_success_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bg_green_500" />
+    <corners android:radius="24dp" />
+</shape>

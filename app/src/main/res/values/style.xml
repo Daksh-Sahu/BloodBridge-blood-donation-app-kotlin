@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginTextInputOuterFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+<!--    daksh_files_from_here-->
+
+
+
+        <style name="LoginTextInputOuterFieldStyleNew" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginTop">15dp</item>
+            <item name="android:layout_marginBottom">15dp</item>
+        </style>
+
+        <style name="LoginTextInputInnerFieldStyleNew" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">@color/black</item>
+            <item name="android:textColorHint">@color/black</item>
+            <item name="android:maxLines">1</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:singleLine">true</item>
+        </style>
+
+
+
+        <!--  Base Theme  -->
+        <style name="Theme.BloodDonation" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/primary_red</item>
+            <item name="colorPrimaryVariant">@color/primary_red_dark</item>
+            <item name="colorOnPrimary">@color/white</item>
+            <item name="colorSecondary">@color/primary_red_light</item>
+            <item name="android:statusBarColor">@color/primary_red</item>
+            <item name="android:windowLightStatusBar">false</item>
+            <item name="android:fontFamily">sans-serif</item>
+        </style>
+        <!--  Card Styles  -->
+        <style name="CardStyle">
+            <item name="android:background">@drawable/card_background</item>
+            <item name="android:elevation">@dimen/elevation_md</item>
+            <item name="android:layout_margin">@dimen/spacing_md</item>
+            <item name="android:padding">@dimen/spacing_md</item>
+        </style>
+        <!--  Input Field Styles  -->
+        <style name="InputFieldStyle">
+            <item name="android:layout_height">40dp</item>
+            <item name="android:padding">6sp</item>
+            <item name="android:paddingStart">20sp</item><!--@dimen/spacing_md-->
+            <item name="android:background">@drawable/input_background</item>
+            <item name="android:textSize">12sp</item>
+            <item name="android:textColor">@color/text_gray_800</item>
+            <item name="android:textColorHint">@color/text_gray_400</item>
+        </style>
+        <!--  Button Styles  -->
+        <style name="PrimaryButtonStyle">
+            <item name="android:layout_height">@dimen/button_height</item>
+            <item name="backgroundTint">@color/primary_red</item>// <!--   <item name="android:background">@drawable/button_primary</item>-->
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textSize">@dimen/text_base</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:elevation">@dimen/elevation_md</item>
+            <item name="android:stateListAnimator">@null</item>
+        </style>
+        <style name="SecondaryButtonStyle">
+            <item name="android:layout_height">@dimen/small_button_height</item>
+            <item name="android:background">@drawable/button_secondary</item>
+            <item name="android:textColor">@color/primary_red</item>
+            <item name="android:textSize">@dimen/text_sm</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <style name="AnotherButtonStyle">
+            <item name="android:layout_height">@dimen/button_height</item>
+            <item name="backgroundTint">#C875F0</item>
+            <item name="android:background">@drawable/button_primary</item>// <!--   <item name="android:background">@drawable/button_primary</item>-->
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textSize">@dimen/text_base</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:elevation">@dimen/elevation_md</item>
+            <item name="android:stateListAnimator">@null</item>
+        </style>
+
+
+        <!--  Text Styles  -->
+        <style name="HeaderTextStyle">
+            <item name="android:textSize">@dimen/text_2xl</item>
+            <item name="android:textColor">@color/text_red_600</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:gravity">center</item>
+        </style>
+        <style name="SectionHeaderStyle">
+            <item name="android:textSize">16sp</item>
+            <item name="android:textColor">@color/text_red_700</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:drawablePadding">@dimen/spacing_sm</item>
+        </style>
+        <style name="LabelTextStyle">
+            <item name="android:textSize">12sp</item>
+            <item name="android:textColor">@color/text_gray_700</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:drawablePadding">@dimen/spacing_sm</item>
+        </style>
+        <style name="BodyTextStyle">
+            <item name="android:textSize">@dimen/text_base</item>
+            <item name="android:textColor">@color/text_gray_800</item>
+        </style>
+        <style name="SmallTextStyle">
+            <item name="android:textSize">@dimen/text_xs</item>
+            <item name="android:textColor">@color/text_gray_600</item>
+        </style>
+        <!--  Welcome Text  -->
+        <style name="WelcomeTextStyle">
+            <item name="android:textSize">@dimen/text_4xl</item>
+            <item name="android:textColor">@color/text_gray_800</item>
+            <item name="android:textStyle">normal</item>
+            <item name="android:fontFamily">serif</item>
+        </style>
+        <!--  Action Button Style  -->
+        <style name="ActionButtonStyle">
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:padding">@dimen/action_button_padding</item>
+            <item name="android:background">@drawable/action_button_background</item>
+            <item name="android:elevation">@dimen/elevation_lg</item>
+            <item name="android:layout_margin">@dimen/spacing_md</item>
+        </style>
+        <!--  Error Text Style  -->
+        <style name="ErrorTextStyle">
+            <item name="android:textSize">@dimen/text_sm</item>
+            <item name="android:textColor">@color/text_red_500</item>
+            <item name="android:drawablePadding">@dimen/spacing_xs</item>
+        </style>
+
+        <!--  AutoCompleteTextView Dropdown Style  -->
+        <style name="AutoCompleteDropdown">
+            <item name="android:background">@android:color/white</item>
+            <item name="android:padding">4dp</item>
+            <item name="android:elevation">8dp</item>
+        </style>
+        <!--  Card Style  -->
+        <style name="CardStyle2">
+            <item name="cardCornerRadius">@dimen/corner_radius_medium</item>
+            <item name="cardElevation">@dimen/elevation_card</item>
+            <item name="cardBackgroundColor">@color/white_80</item>
+        </style>
+        <!--  Text Styles  -->
+        <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline6">
+            <item name="android:textSize">@dimen/text_large</item>
+            <item name="android:textColor">@color/gray_900</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+        <style name="TextAppearance.Subtitle" parent="TextAppearance.MaterialComponents.Body2">
+            <item name="android:textSize">@dimen/text_small</item>
+            <item name="android:textColor">@color/gray_500</item>
+        </style>
+        <style name="TextAppearance.Label" parent="TextAppearance.MaterialComponents.Body2">
+            <item name="android:textSize">@dimen/text_small</item>
+            <item name="android:textColor">@color/gray_700</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+        <style name="TextAppearance.Hint" parent="TextAppearance.MaterialComponents.Caption">
+            <item name="android:textSize">@dimen/text_tiny</item>
+            <item name="android:textColor">@color/gray_500</item>
+        </style>
+        <!--  Input Field Style  -->
+        <style name="InputFieldCard">
+            <item name="strokeColor">@color/gray_200</item>
+            <item name="strokeWidth">@dimen/border_width</item>
+            <item name="cardCornerRadius">@dimen/corner_radius_small</item>
+            <item name="cardElevation">0dp</item>
+        </style>
+        <!--  Button Style  -->
+        <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:textSize">@dimen/text_medium</item>
+            <item name="android:textStyle">bold</item>
+            <item name="backgroundTint">@null</item>
+            <item name="android:background">@drawable/bg_button_red</item>
+            <item name="elevation">@dimen/elevation_button</item>
+        </style>
+    </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--&lt;!&ndash; Base application theme &ndash;&gt;-->
+    <!--<style name="Theme.BloodDonationApp" parent="Theme.Material3.DayNight.NoActionBar">-->
+    <!--    <item name="colorPrimary">@color/primary_red</item>-->
+    <!--    <item name="colorPrimaryVariant">@color/primary_red_dark</item>-->
+    <!--    <item name="colorOnPrimary">@color/text_white</item>-->
+    <!--    <item name="colorSecondary">@color/primary_red_light</item>-->
+    <!--    <item name="colorSecondaryVariant">@color/primary_red</item>-->
+    <!--    <item name="colorOnSecondary">@color/text_white</item>-->
+    <!--    <item name="android:colorBackground">@color/background_pink</item>-->
+    <!--    <item name="colorOnBackground">@color/text_primary</item>-->
+    <!--    <item name="colorSurface">@color/card_background</item>-->
+    <!--    <item name="colorOnSurface">@color/text_primary</item>-->
+    <!--    <item name="android:statusBarColor">@color/primary_red</item>-->
+    <!--    <item name="android:navigationBarColor">@color/background_pink</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Toolbar Style &ndash;&gt;-->
+    <!--<style name="ToolbarStyle" parent="Widget.Material3.Toolbar">-->
+    <!--    <item name="android:background">@color/primary_red</item>-->
+    <!--    <item name="titleTextColor">@color/text_white</item>-->
+    <!--    <item name="android:theme">@style/ThemeOverlay.Material3.Dark</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Card Style &ndash;&gt;-->
+    <!--<style name="CardStyle" parent="Widget.Material3.CardView.Elevated">-->
+    <!--    <item name="cardBackgroundColor">@color/card_background</item>-->
+    <!--    <item name="cardCornerRadius">12dp</item>-->
+    <!--    <item name="cardElevation">4dp</item>-->
+    <!--    <item name="android:layout_margin">8dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Primary Button Style &ndash;&gt;-->
+    <!--<style name="PrimaryButtonStyle" parent="Widget.Material3.Button">-->
+    <!--    <item name="android:background">@drawable/button_primary_background</item>-->
+    <!--    <item name="android:textColor">@color/text_white</item>-->
+    <!--    <item name="android:textSize">16sp</item>-->
+    <!--    <item name="android:fontFamily">sans-serif-medium</item>-->
+    <!--    <item name="android:padding">16dp</item>-->
+    <!--    <item name="android:layout_marginHorizontal">16dp</item>-->
+    <!--    <item name="android:layout_marginVertical">8dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Secondary Button Style &ndash;&gt;-->
+    <!--<style name="SecondaryButtonStyle" parent="Widget.Material3.Button.OutlinedButton">-->
+    <!--    <item name="android:background">@drawable/button_secondary_background</item>-->
+    <!--    <item name="android:textColor">@color/text_primary</item>-->
+    <!--    <item name="android:textSize">16sp</item>-->
+    <!--    <item name="android:fontFamily">sans-serif-medium</item>-->
+    <!--    <item name="android:padding">16dp</item>-->
+    <!--    <item name="android:layout_marginHorizontal">16dp</item>-->
+    <!--    <item name="android:layout_marginVertical">8dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; EditText Style &ndash;&gt;-->
+    <!--<style name="EditTextStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">-->
+    <!--    <item name="android:layout_marginHorizontal">16dp</item>-->
+    <!--    <item name="android:layout_marginVertical">8dp</item>-->
+    <!--    <item name="boxStrokeColor">@color/primary_red</item>-->
+    <!--    <item name="hintTextColor">@color/text_secondary</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Action Button Style &ndash;&gt;-->
+    <!--<style name="ActionButtonStyle">-->
+    <!--    <item name="android:layout_width">match_parent</item>-->
+    <!--    <item name="android:layout_height">wrap_content</item>-->
+    <!--    <item name="android:layout_marginHorizontal">24dp</item>-->
+    <!--    <item name="android:layout_marginVertical">12dp</item>-->
+    <!--    <item name="android:background">@drawable/action_button_background</item>-->
+    <!--    <item name="android:padding">20dp</item>-->
+    <!--    <item name="android:gravity">center_vertical</item>-->
+    <!--    <item name="android:clickable">true</item>-->
+    <!--    <item name="android:focusable">true</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Title Text Style &ndash;&gt;-->
+    <!--<style name="TitleTextStyle">-->
+    <!--    <item name="android:textSize">24sp</item>-->
+    <!--    <item name="android:textColor">@color/text_primary</item>-->
+    <!--    <item name="android:fontFamily">serif</item>-->
+    <!--    <item name="android:layout_marginBottom">16dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Subtitle Text Style &ndash;&gt;-->
+    <!--<style name="SubtitleTextStyle">-->
+    <!--    <item name="android:textSize">18sp</item>-->
+    <!--    <item name="android:textColor">@color/text_primary</item>-->
+    <!--    <item name="android:fontFamily">sans-serif-medium</item>-->
+    <!--    <item name="android:layout_marginBottom">8dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Body Text Style &ndash;&gt;-->
+    <!--<style name="BodyTextStyle">-->
+    <!--    <item name="android:textSize">16sp</item>-->
+    <!--    <item name="android:textColor">@color/text_primary</item>-->
+    <!--    <item name="android:fontFamily">sans-serif</item>-->
+    <!--    <item name="android:lineSpacingExtra">4dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Secondary Text Style &ndash;&gt;-->
+    <!--<style name="SecondaryTextStyle">-->
+    <!--    <item name="android:textSize">14sp</item>-->
+    <!--    <item name="android:textColor">@color/text_secondary</item>-->
+    <!--    <item name="android:fontFamily">sans-serif</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Navigation Drawer Style &ndash;&gt;-->
+    <!--<style name="NavigationDrawerStyle">-->
+    <!--    <item name="android:background">@color/background_white</item>-->
+    <!--    <item name="itemTextColor">@color/text_primary</item>-->
+    <!--    <item name="itemIconTint">@color/primary_red</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Notification Badge Style &ndash;&gt;-->
+    <!--<style name="NotificationBadgeStyle">-->
+    <!--    <item name="android:layout_width">20dp</item>-->
+    <!--    <item name="android:layout_height">20dp</item>-->
+    <!--    <item name="android:background">@drawable/notification_badge_background</item>-->
+    <!--    <item name="android:textColor">@color/text_white</item>-->
+    <!--    <item name="android:textSize">12sp</item>-->
+    <!--    <item name="android:gravity">center</item>-->
+    <!--    <item name="android:fontFamily">sans-serif-medium</item>-->
+    <!--</style>-->

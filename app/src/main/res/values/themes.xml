@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BloodDonationApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+
+        <!-- App primary colors -->
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/primary_red</item>
+
+        <!-- Use light or dark icons on status bar -->
+        <!--    <item name="android:forceDarkAllowed">false</item>-->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/gray_900</item>
+        <item name="android:textColorSecondary">@color/gray_600</item>
+        <item name="android:textColorHint">@color/gray_400</item>
+        <!--  Window background  -->
+        <item name="android:windowBackground">@drawable/bg_gradient_pink</item>
+        <!--  Dropdown popup  -->
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+    </style>
+
+
+
+    <style name="Theme.BloodDonationApp" parent="Base.Theme.BloodDonationApp" />
+    <style name="Theme.YourAppName" parent="Theme.Material3.Light.NoActionBar">
+    </style>
+
+    <style name="ShapeAppearance.App.CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+<style name="Widget.BloodDonation.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="boxStrokeColor">@drawable/input_stroke</item>
+    <item name="boxStrokeWidth">2dp</item>
+    <item name="hintTextColor">@color/text_secondary</item>
+    <item name="errorTextColor">@color/red</item>
+</style>
+
+<!--  Dropdown ListView Style  -->
+<style name="DropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+    <item name="android:background">@android:color/white</item>
+    <item name="android:divider">@color/gray_100</item>
+    <item name="android:dividerHeight">1dp</item>
+    <item name="android:paddingTop">4dp</item>
+    <item name="android:paddingBottom">4dp</item>
+</style>
+
+</resources>

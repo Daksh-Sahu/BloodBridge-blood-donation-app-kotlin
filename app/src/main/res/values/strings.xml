@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Blood Donation App</string>
+    <string name="google_web_client_id">90899182252-kojvklgh7modp9th9btvvd58fe99vcmj.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <!--daksh_files_from_here-->
+
+    <string name="select_hospital">Select Hospital</string>
+    <string name="choose_hospital">Choose Hospital</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="hospital_selection_description">Select your hospital to continue with verification</string>
+    <string name="email_verification_description">Example:doctor@hospital.in \nWe\'ll send a verification code to this email address</string>
+    <string name="verification_code_hint">We sent a verification code to %1$s</string>
+    <string name="email_verified_success">Email Verified Successfully</string>
+
+    <!-- Button Text -->
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="change_email">Change Email</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Input Hints -->
+    <string name="hospital_location_hint">Hospital Location</string>
+    <string name="search_hospitals_hint">Search hospitals…</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="enter_email_hint">Hospital email address</string>
+    <string name="verification_code_hint_short">Verification Code</string>
+    <string name="enter_code_hint">Enter 6-digit code</string>
+
+    <!-- Error Messages -->
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="invalid_code">Invalid verification code. Try 123456 for demo.</string>
+    <string name="select_hospital_first">Please select a hospital first</string>
+
+    <!-- Success Messages -->
+    <string name="code_sent">Verification code sent to %1$s</string>
+    <string name="continuing_with_hospital">Continuing with %1$s</string>
+
+
+    <!--  Beginning Info Form  -->
+    <string name="please_enter_details">Please enter below details</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_full_name">Enter your full name</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="proceed_to_dashboard">Proceed to Dashboard</string>
+    <string name="secure_info_footer">Secure information for blood bank management</string>
+    <string name="please_fill_fields">Please fill all required fields correctly to proceed.</string>
+    <string name="full_name_required">Full name is required</string>
+    <string name="phone_required">Phone number is required</string>
+    <string name="phone_invalid">Phone number must be exactly 10 digits</string>
+    <!--  Dashboard  -->
+    <string name="welcome">Welcome</string>
+    <string name="user_id">User ID:</string>
+    <string name="user_id_value">USR-2024-789456</string>
+    <string name="hospital_user">Hospital User</string>
+    <string name="phone_label">Phone:</string>
+    <string name="not_provided">Not provided</string>
+    <string name="hospital_address">123 Healthcare Avenue, Medical District, City 12345</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="emergency_description">Post an emergency request.</string>
+    <string name="new_donor_record">New Donor Record</string>
+    <string name="new_donor_description">Add new donor details.</string>
+    <!--  New Donor Record  -->
+    <string name="new_donor_record_title">New Donor Record</string>
+    <string name="record_information">Record Information</string>
+    <string name="hospital_name_label">Hospital Name</string>
+    <string name="date_label">Date</string>
+    <string name="donor_information">Donor Information</string>
+    <string name="unique_donor_id">Unique Donor ID</string>
+    <string name="enter_donor_id">Enter donor ID (e.g., D001, D002, D003, D004, D005)</string>
+    <string name="try_ids">Try: D001, D002, D003, D004, or D005</string>
+    <string name="donor_name">Name</string>
+    <string name="donor_age">Age</string>
+    <string name="donor_gender">Gender</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="blood_pressure">Blood Pressure (BP)</string>
+    <string name="bp_placeholder">e.g., 120/80</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="enter_weight">Enter weight in kg</string>
+    <string name="units_donated">Units Donated</string>
+    <string name="enter_units">Enter number of units</string>
+    <string name="photo_upload">Photo Upload</string>
+    <string name="photo_uploaded_success">Photo uploaded successfully!</string>
+    <string name="upload_another_photo">Upload Another Photo</string>
+    <string name="upload_donor_photo">Upload donor photo from gallery</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="create_donor_record">Create Donor Record</string>
+    <string name="success">Success!</string>
+    <string name="record_created_success">New donor record created successfully!</string>
+    <string name="close">Close</string>
+    <string name="fill_required_fields">Please fill in all required fields</string>
+    <string name="photo_upload_success">Photo uploaded successfully!</string>
+    <string name="hospital_name_value">St. Mary\'s General Hospital</string>
+    <string name="years">years</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_donations">Donations</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_about">About</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_account_section">Account</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="account_information">Account Information</string>
+    <string name="account_type">Account Type:</string>
+    <string name="hospital_account">Hospital Account</string>
+    <string name="member_since">Member Since:</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profile_updated_success">Profile updated successfully!</string>
+
+    <!-- Donations -->
+    <string name="donations_title">Donor Records</string>
+    <string name="donor_records">Donor Records</string>
+    <string name="current_hospital">Current Hospital</string>
+    <string name="no_donor_records">No Donor Records Yet</string>
+    <string name="no_donor_records_description">You haven\'t created any donor records yet. Start by adding your first donor record.</string>
+    <string name="create_first_record">Create First Record</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="app_description">A comprehensive blood donation management system designed to streamline hospital operations and save lives through efficient donor record management.</string>
+    <string name="contact_support">Contact &amp; Support</string>
+    <string name="email_support">Email Support</string>
+    <string name="phone_support">Phone Support</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="legal_policies">Legal &amp;Policies</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="credits_acknowledgments">Credits &amp; Acknowledgments</string>
+    <string name="credits_description">This app was built with care to support healthcare professionals in managing blood donations efficiently. Special thanks to all the healthcare workers who dedicate their lives to saving others.</string>
+    <string name="copyright_text">© 2024 Blood Donation App. All rights reserved.</string>
+
+    <!-- Logout -->
+    <string name="confirm_logout">Confirm Logout</string>
+    <string name="logout_confirmation_message">Are you sure you want to logout? You will need to enter your details again to access the app.</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="hospital_info">%1$s, %2$s</string>
+
+
+    <!--  Activity Titles  -->
+    <string name="hospital_signin_title">Hospital Sign In</string>
+    <!--  Headers  -->
+    <string name="blood_donation_app">Blood Donation App</string>
+    <string name="welcome_back">Welcome back, please sign in</string>
+    <!--  Hospital Selection  -->
+
+    <string name="select_hospital_continue">Select your hospital to continue</string>
+    <string name="hospital_location">Hospital Location</string>
+    <string name="search_hospital">Search for a hospital…</string>
+    <!--  Sign In  -->
+    <string name="sign_in">Sign In</string>
+    <string name="enter_credentials">Enter your credentials to access your account</string>
+    <string name="enter_hospital_email">Enter your hospital email address</string>
+    <string name="email_placeholder">your.email@gmail.com</string>
+    <string name="enter_any_email">Enter any email address</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="signing_in">Signing in…</string>
+    <!--  Sign Up  -->
+    <string name="not_registered">Not registered yet?</string>
+    <string name="sign_up">
+Success
+</string>
+    <string name="not_registered_signup">
+Success
+</string>
+    <!--  Status Messages  -->
+    <string name="select_hospital_status">Please select a hospital to continue</string>
+    <string name="enter_credentials_status">Enter your credentials to access your account</string>
+    <string name="signin_successful">Sign in successful! Proceeding to dashboard…</string>
+    <!--  Errors  -->
+
+    <string name="password_required">Password is required</string>
+    <string name="hospital_required">Please select a hospital</string>
+    <!--  Sign Up Specific Strings  -->
+    <string name="create_hospital_account">Create your hospital account</string>
+    <string name="create_account_with_hospital_email">Create a new account with your hospital email</string>
+
+    <string name="email_placeholder_signup">city_hospital@gmail.com</string>
+    <string name="email_must_contain_hospital"> </string>
+    <string name="email_not_match_hospital">This doesn\'t look like your hospital email address, please enter a valid email address</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="create_password">Create a password</string>
+    <string name="confirm_password">Confirm your password</string>
+    <string name="reenter_password">Re-enter your password</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="fill_details_to_create_account">Fill in your details to create an account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in_link">
+Success
+</string>
+</resources>

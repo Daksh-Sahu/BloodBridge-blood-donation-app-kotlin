@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/dashboard_background" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#DC2626"
+        android:elevation="6.4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="11.2dp">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:padding="3.2dp"
+            android:src="@drawable/ic_arrow_left"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="22dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:paddingTop="6.4dp"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+<!-- Content -->
+<ScrollView
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="19.2dp">
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<!-- Profile Image Section -->
+<LinearLayout
+    android:background="@drawable/card_background"
+    android:elevation="6.4dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12.8dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12.8dp">
+<LinearLayout
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/profile_image_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_profile_image" />
+
+        <!-- Camera Icon -->
+        <ImageView
+            android:id="@+id/ivCameraIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|end"
+
+            android:background="@drawable/camera_button_background"
+            android:elevation="4dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_camera"
+            android:clickable="true"
+            android:focusable="true"
+            app:tint="@android:color/white" />
+    </FrameLayout>
+
+<TextView
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Tap the camera icon to change your profile picture"
+    android:textColor="#6B7280"
+    android:textSize="9.6sp"/>
+</LinearLayout>
+</LinearLayout>
+<!-- Personal Information Card -->
+<LinearLayout
+    android:background="@drawable/card_background"
+    android:elevation="6.4dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12.8dp">
+<!-- Section Header -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="19.2dp"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_height="16.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="16.0dp"
+    android:src="@drawable/ic_user"
+    app:tint="#B91C1C"/>
+<TextView
+    android:fontFamily="serif"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Personal Information"
+    android:textColor="#B91C1C"
+    android:textSize="14.4sp"
+    android:textStyle="bold"/>
+</LinearLayout>
+<!-- Full Name Field -->
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<!-- Label -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6.4dp"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_height="16.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="16.0dp"
+    android:src="@drawable/ic_user"
+    app:tint="#DC2626"/>
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Full Name"
+    android:textColor="#374151"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+
+</LinearLayout>
+<!-- Display Mode -->
+<LinearLayout
+    android:background="@drawable/display_field_background"
+    android:gravity="center_vertical"
+    android:id="@+id/llFullNameDisplay"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="9.6dp">
+<TextView
+    android:id="@+id/tvFullNameValue"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:text="Not provided"
+    android:textColor="#1F2937"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+<ImageView
+    android:background="@drawable/edit_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivEditName"
+    android:layout_height="25.6dp"
+    android:layout_width="25.6dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_edit_new"
+    app:tint="#DC2626"/>
+</LinearLayout>
+<!-- Edit Mode -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:id="@+id/llFullNameEdit"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:visibility="gone">
+<EditText
+    android:background="@drawable/edit_field_background"
+    android:hint="Enter your full name"
+    android:id="@+id/tvFullNameEdit"
+    android:inputType="textPersonName"
+    android:layout_height="32.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:padding="9.6dp"
+    android:textColor="#1F2937"
+    android:textColorHint="#9CA3AF"
+    android:textSize="11.2sp"/>
+<ImageView
+    android:background="@drawable/save_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivSaveName"
+    android:layout_height="32.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="32.0dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_check_circle_new"
+    app:tint="#FFFFFF"/>
+
+<ImageView
+    android:background="@drawable/cancel_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivCancelName"
+    android:layout_height="32.0dp"
+    android:layout_width="32.0dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_close"
+    app:tint="#DC2626"/>
+
+</LinearLayout>
+</LinearLayout>
+<!-- Phone Number Field -->
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="19.2dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<!-- Label -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6.4dp"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_height="16.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="16.0dp"
+    android:src="@drawable/ic_phone_new"
+    app:tint="#DC2626"/>
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Phone Number"
+    android:textColor="#374151"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+
+</LinearLayout>
+<!-- Display Mode -->
+<LinearLayout
+    android:background="@drawable/display_field_background"
+    android:gravity="center_vertical"
+    android:id="@+id/llPhoneDisplay"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="9.6dp">
+
+<TextView
+    android:id="@+id/tvPhoneValue"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:text="Not provided"
+    android:textColor="#1F2937"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+<ImageView
+    android:background="@drawable/edit_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivEditPhone"
+    android:layout_height="25.6dp"
+    android:layout_width="25.6dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_edit_new"
+    app:tint="#DC2626"/>
+</LinearLayout>
+<!-- Edit Mode -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:id="@+id/llPhoneEdit"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:visibility="gone">
+<EditText
+    android:background="@drawable/edit_field_background"
+    android:hint="Enter 10-digit phone number"
+    android:id="@+id/tvPhoneEdit"
+    android:inputType="phone"
+    android:layout_height="32.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:maxLength="10"
+    android:padding="9.6dp"
+    android:textColor="#1F2937"
+    android:textColorHint="#9CA3AF"
+    android:textSize="11.2sp"/>
+<ImageView
+    android:background="@drawable/save_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivSavePhone"
+    android:layout_height="32.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="32.0dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_check_circle_new"
+    app:tint="#FFFFFF"/>
+
+<ImageView
+    android:background="@drawable/cancel_button_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ivCancelPhone"
+    android:layout_height="32.0dp"
+    android:layout_width="32.0dp"
+    android:padding="6.4dp"
+    android:src="@drawable/ic_close"
+    app:tint="#DC2626"/>
+</LinearLayout>
+</LinearLayout>
+<!-- Hospital Email (Non-editable) -->
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<!-- Label -->
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6.4dp"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_height="16.0dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="16.0dp"
+    android:src="@drawable/ic_email"
+    app:tint="#DC2626"/>
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Hospital Email Address"
+    android:textColor="#374151"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+</LinearLayout>
+<!-- Non-editable Field -->
+<LinearLayout
+    android:background="@drawable/readonly_field_background"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="9.6dp">
+<ImageView
+    android:layout_height="12.8dp"
+    android:layout_marginEnd="6.4dp"
+    android:layout_width="12.8dp"
+    android:src="@drawable/ic_hospital_new"
+    app:tint="#6B7280"/>
+<TextView
+    android:id="@+id/tvEmailValue"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:text="name@hospital.com"
+    android:textColor="#6B7280"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<!-- Account Information Card -->
+<LinearLayout
+    android:background="@drawable/card_background"
+    android:elevation="6.4dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12.8dp">
+<TextView
+    android:fontFamily="serif"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12.8dp"
+    android:layout_width="wrap_content"
+    android:text="Account Information"
+    android:textColor="#B91C1C"
+    android:textSize="14.4sp"
+    android:textStyle="bold"/>
+<LinearLayout
+    android:background="@drawable/account_info_background"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="9.6dp">
+<FrameLayout
+    android:background="@drawable/user_id_icon_background"
+    android:layout_height="25.6dp"
+    android:layout_marginEnd="9.6dp"
+    android:layout_width="25.6dp">
+<ImageView
+    android:layout_gravity="center"
+    android:layout_height="12.8dp"
+    android:layout_width="12.8dp"
+    android:src="@drawable/ic_user"
+    app:tint="#FFFFFF"/>
+</FrameLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_width="0.0dp"
+    android:orientation="vertical">
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="User ID"
+    android:textColor="#6B7280"
+    android:textSize="9.6sp"/>
+<TextView
+    android:id="@+id/tvUserId"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="USR-2024-789456"
+    android:textColor="#B91C1C"
+    android:textSize="11.2sp"
+    android:textStyle="bold"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

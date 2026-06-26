@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_blood_don"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_blood_don_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodDonationApp">
+        <activity
+            android:name=".ChatbotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcceptedDonationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AwaitingDonorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyDonationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonationSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Receiver_page"
+            android:exported="false" />
+        <activity
+            android:name=".Doner_page"
+            android:exported="false" />
+        <activity
+            android:name=".About_us"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".otpactivity"
+            android:exported="false" />
+        <activity
+            android:name=".phoneauth"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".publicuserlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Authounticationpage"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider> <!-- daksh_files_from_here -->
+        <activity
+            android:name=".HospitalSignInActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan|stateHidden" /> <!-- Beginning Info Activity -->
+        <activity
+            android:name=".BeginningInfoActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" /> <!-- Dashboard Activity -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".BeginningInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewDonorRecordActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" /> <!-- Profile Activity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" /> <!-- About Activity -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DonationsActivity"
+            android:label="Donations"
+            android:parentActivityName=".DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".DonorDetailsActivity"
+            android:label="Donor Details"
+            android:parentActivityName=".DonationsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DonationsActivity" />
+        </activity> <!-- Emergency SOS Activity -->
+        <activity
+            android:name=".EmergencySOSActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+    </application>
+
+</manifest>

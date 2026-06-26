@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF1F2"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_alert_triangle"
+        app:tint="#DC2626"
+        android:contentDescription="Alert Icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="REQUEST STATUS"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Waiting for a donor to accept the request..."
+        android:textSize="16sp"
+        android:textColor="#6B7280"
+        android:textStyle="italic" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="#DC2626" />
+
+    <LinearLayout
+        android:id="@+id/donorInfoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="4dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONOR ACCEPTED!"
+            android:textSize="18sp"
+            android:textColor="#059669"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/donorNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:text="Donor: Loading..."
+            android:textColor="#1F2937"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/donorPhoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:drawableStart="@drawable/ic_phone_new"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:text="Contact: N/A"
+            android:textColor="#1F2937"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/liveLocationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/ic_map_pin"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:text="Location: Lat 0.0000, Lng 0.0000"
+            android:textColor="#DC2626"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:text="Cancel Emergency Request"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#EF4444"
+        android:background="@drawable/emergency_button_background" />
+
+</LinearLayout>

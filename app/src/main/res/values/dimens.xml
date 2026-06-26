@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="text_xs">12sp</dimen>
+    <dimen name="text_sm">14sp</dimen>
+    <dimen name="text_base">16sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_2xl">24sp</dimen>
+    <dimen name="text_4xl">36sp</dimen>
+    
+    <!-- Border Radius -->
+    <dimen name="radius_sm">4dp</dimen>
+    <dimen name="radius_md">8dp</dimen>
+    <dimen name="radius_lg">12dp</dimen>
+    <dimen name="radius_xl">16dp</dimen>
+    <dimen name="radius_2xl">20dp</dimen>
+    
+    <!-- Component Heights -->
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="small_button_height">40dp</dimen>
+    <dimen name="large_button_height">64dp</dimen>
+    
+
+    <dimen name="icon_xs">12dp</dimen>
+    <dimen name="icon_sm">16dp</dimen>
+    <dimen name="icon_md">20dp</dimen>
+    <dimen name="icon_lg">24dp</dimen>
+    <dimen name="icon_xl">32dp</dimen>
+    <dimen name="icon_xxl">40dp</dimen>
+    <dimen name="icon_xxxl">48dp</dimen>
+    
+    <!-- Hospital Icon Circle -->
+    <dimen name="hospital_icon_size">80dp</dimen>
+    <dimen name="hospital_icon_inner">40dp</dimen>
+    
+    <!-- Photo Upload Circle -->
+    <dimen name="photo_circle_size">48dp</dimen>
+    <dimen name="photo_icon_size">24dp</dimen>
+    
+    <!-- Elevation -->
+    <dimen name="elevation_sm">2dp</dimen>
+    <dimen name="elevation_md">4dp</dimen>
+    <dimen name="elevation_lg">8dp</dimen>
+    <dimen name="elevation_xl">12dp</dimen>
+    
+    <!-- Image Slider -->
+    <dimen name="slider_height">128dp</dimen>
+    
+    <!-- Action Button -->
+    <dimen name="action_button_padding">24dp</dimen>
+    <dimen name="action_button_icon_bg">48dp</dimen>
+
+    <!--  Spacing  -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xxlarge">32dp</dimen>
+    <!--  Text Sizes  -->
+    <dimen name="text_tiny">11sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_medium">15sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_xlarge">32sp</dimen>
+    <!--  Icon Sizes  -->
+    <dimen name="icon_small">16dp</dimen>
+    <dimen name="icon_medium">20dp</dimen>
+    <dimen name="icon_large">40dp</dimen>
+    <dimen name="icon_xlarge">80dp</dimen>
+    <!--  Corner Radius  -->
+    <dimen name="corner_radius_small">6dp</dimen>
+    <dimen name="corner_radius_medium">12dp</dimen>
+    <dimen name="corner_radius_large">40dp</dimen>
+    <!--  Elevation  -->
+    <dimen name="elevation_card">8dp</dimen>
+    <dimen name="elevation_button">4dp</dimen>
+
+
+    <!--  Card  -->
+    <dimen name="card_padding">20dp</dimen>
+    <!--  Border  -->
+    <dimen name="border_width">2dp</dimen>
+</resources>

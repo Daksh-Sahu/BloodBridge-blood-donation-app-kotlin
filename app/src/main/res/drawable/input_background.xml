@@ -1,0 +1,30 @@
+<!-- input_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/radius_lg" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/focus_red_500" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/bg_gray_50" />
+            <corners android:radius="@dimen/radius_lg" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/border_gray_200" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/radius_lg" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/border_red_200" />
+        </shape>
+    </item>
+</selector>

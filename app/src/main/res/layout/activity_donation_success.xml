@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/login_gradient"
+    tools:context=".DonationSuccessActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45690835" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/success_badge_card"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:cardCornerRadius="70dp" app:cardElevation="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_success_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp">
+
+        <ImageView
+            android:id="@+id/iv_success_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_blood_donate"
+            app:tint="@color/red"
+            android:contentDescription="Success Icon" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/tv_success_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Thank You!"
+        android:textAppearance="?attr/textAppearanceHeadlineLarge"
+        android:textColor="@color/white" android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_center" />
+
+    <TextView
+        android:id="@+id/tv_success_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Your generous donation is confirmed. The patient has been notified. You are a true hero!"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="@color/white" android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_success_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/btn_view_on_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View on Map"
+        android:layout_marginBottom="16dp"
+        android:paddingVertical="12dp"
+        android:textSize="16sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/red"
+        app:icon="@drawable/ic_map"
+        app:iconTint="@color/red"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btn_back_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_back_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_marginBottom="32dp"
+        android:paddingVertical="12dp"
+        android:textSize="16sp"
+        android:backgroundTint="@color/red" android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

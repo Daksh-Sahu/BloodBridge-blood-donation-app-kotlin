@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:id="@+id/icon_blood_group_layout"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/circular_background_red"
+            android:backgroundTint="#FFE5E5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_blood_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="A+" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_patient_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icon_blood_group_layout"
+            app:layout_constraintTop_toTopOf="@id/icon_blood_group_layout"
+            tools:text="Patient Name Here" />
+
+        <TextView
+            android:id="@+id/tv_units"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            app:drawableStartCompat="@drawable/ic_blood_bag"
+            app:drawableTint="?android:attr/textColorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_patient_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_patient_name"
+            tools:text="2 Units Required" />
+
+
+        <TextView
+            android:id="@+id/tv_hospital_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="11sp"
+            app:drawableStartCompat="@drawable/ic_hospital"
+            app:drawableTint="?android:attr/textColorSecondary"
+            app:layout_constraintStart_toStartOf="@id/icon_blood_group_layout"
+            app:layout_constraintTop_toBottomOf="@id/icon_blood_group_layout"
+            app:layout_constraintEnd_toStartOf="@+id/btn_card_map"
+            tools:text="Manipal Hospital, Old Airport Road" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_card_map"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map"
+            app:icon="@drawable/ic_map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_hospital_name"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_hospital_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_emergency_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="#FF5252"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="🚨 EMERGENCY"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

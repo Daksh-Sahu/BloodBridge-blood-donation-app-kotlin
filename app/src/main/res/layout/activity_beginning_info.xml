@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:padding="@dimen/spacing_md">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/spacing_md">
+
+            <!-- Header Section -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/spacing_xl">
+
+                <!-- Hospital Icon -->
+                <FrameLayout
+                    android:layout_width="@dimen/hospital_icon_size"
+                    android:layout_height="@dimen/hospital_icon_size"
+                    android:background="@drawable/hospital_icon_background"
+                    android:elevation="@dimen/elevation_lg"
+                    android:layout_marginBottom="@dimen/spacing_md">
+
+                    <ImageView
+                        android:layout_width="@dimen/hospital_icon_inner"
+                        android:layout_height="@dimen/hospital_icon_inner"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_hospital_new"
+                        android:contentDescription="Hospital Icon"
+                        app:tint="@color/white" />
+
+                </FrameLayout>
+
+                <!-- Header Text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/please_enter_details"
+                    style="@style/HeaderTextStyle" />
+
+            </LinearLayout>
+
+            <!-- Alert Section (Initially Hidden) -->
+            <LinearLayout
+                android:id="@+id/alertContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/alert_background"
+                android:padding="@dimen/spacing_md"
+                android:layout_marginBottom="@dimen/spacing_lg"
+                android:visibility="gone"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_sm"
+                    android:layout_height="@dimen/icon_sm"
+                    android:src="@drawable/ic_alert_circle"
+                    app:tint="@color/text_red_600"
+                    android:layout_marginEnd="@dimen/spacing_sm" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/please_fill_fields"
+                    android:textSize="@dimen/text_sm"
+                    android:textColor="@color/text_red_700" />
+
+            </LinearLayout>
+
+            <!-- Form Card -->
+            <LinearLayout
+                style="@style/CardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Full Name Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/spacing_lg">
+
+                    <!-- Label -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/spacing_sm">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_md"
+                            android:layout_height="@dimen/icon_md"
+                            android:src="@drawable/ic_user"
+                            app:tint="@color/text_red_600"
+                            android:layout_marginEnd="@dimen/spacing_sm" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/full_name"
+                            style="@style/LabelTextStyle" />
+
+                    </LinearLayout>
+
+                    <!-- Input Field -->
+                    <EditText
+                        android:id="@+id/etFullName"
+                        android:layout_width="match_parent"
+                        style="@style/InputFieldStyle"
+                        android:hint="@string/enter_full_name"
+                        android:inputType="textPersonName"
+                        android:importantForAutofill="no" />
+
+                    <!-- Error Text -->
+                    <LinearLayout
+                        android:id="@+id/fullNameErrorContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/spacing_sm"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_sm"
+                            android:layout_height="@dimen/icon_sm"
+                            android:src="@drawable/ic_alert_circle"
+                            app:tint="@color/text_red_500"
+                            android:layout_marginEnd="@dimen/spacing_xs" />
+
+                        <TextView
+                            android:id="@+id/tvFullNameError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/ErrorTextStyle"
+                            android:text="@string/full_name_required" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Phone Number Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/spacing_lg">
+
+                    <!-- Label -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/spacing_sm">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_md"
+                            android:layout_height="@dimen/icon_md"
+                            android:src="@drawable/ic_phone_new"
+                            app:tint="@color/text_red_600"
+                            android:layout_marginEnd="@dimen/spacing_sm" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/phone_number"
+                            style="@style/LabelTextStyle" />
+
+                    </LinearLayout>
+
+                    <!-- Input Field with Counter -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/etPhoneNumber"
+                            android:layout_width="match_parent"
+                            style="@style/InputFieldStyle"
+                            android:hint="@string/enter_phone_number"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:paddingEnd="60dp"
+                            android:importantForAutofill="no" />
+
+                        <TextView
+                            android:id="@+id/tvPhoneCounter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/spacing_md"
+                            android:text="0/10"
+                            android:textSize="@dimen/text_sm"
+                            android:textColor="@color/text_gray_400" />
+
+                    </RelativeLayout>
+
+                    <!-- Error Text -->
+                    <LinearLayout
+                        android:id="@+id/phoneErrorContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/spacing_sm"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_sm"
+                            android:layout_height="@dimen/icon_sm"
+                            android:src="@drawable/ic_alert_circle"
+                            android:layout_marginEnd="@dimen/spacing_xs"
+                            app:tint="@color/text_red_500" />
+
+                        <TextView
+                            android:id="@+id/tvPhoneError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/ErrorTextStyle"
+                            android:text="@string/phone_required" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Proceed Button -->
+                <Button
+                    android:id="@+id/btnProceed"
+                    android:layout_width="match_parent"
+                    style="@style/AnotherButtonStyle"
+                    android:layout_height="@dimen/large_button_height"
+                    android:text="@string/proceed_to_dashboard"
+                    android:drawableEnd="@drawable/ic_arrow_right"
+                    android:drawableTint="@color/white"
+                    android:gravity="center"
+
+                     />
+
+            </LinearLayout>
+
+            <!-- Footer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/secure_info_footer"
+                style="@style/SmallTextStyle"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/spacing_lg" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

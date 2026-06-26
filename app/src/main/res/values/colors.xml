@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="btn_color">#FF735C</color>
+    <color name="edit_text_color">#FFD6CF</color>
+    <color name="hint_text_color">#D4D4D4</color>
+    <color name="appRed">#D32F2F</color>
+    <color name="lightPinkBackground">#FFF0F0</color>
+    <color name="cardPinkBackground">#FFE5E5</color>
+
+
+
+
+<!--    daksh_files_from_here-->
+
+
+
+<!-- Primary Colors -->
+<color name="primary_red">#EF4444</color>
+<color name="primary_red_dark">#DC2626</color>
+
+<!-- Background Colors -->
+<color name="background_pink">#FDF2F8</color>
+<color name="heart_icon_background">#FEF2F2</color>
+<color name="selected_hospital_background">#F9FAFB</color>
+
+<!-- Text Colors -->
+<color name="text_primary">#111827</color>
+<color name="text_secondary">#6B7280</color>
+<color name="text_hint">#9CA3AF</color>
+
+<!-- Icon Colors -->
+<color name="icon_gray">#9CA3AF</color>
+
+<!-- Divider -->
+<color name="divider_gray">#F3F4F6</color>
+
+<!-- Success Colors -->
+<color name="success_background">#F0FDF4</color>
+<color name="success_text">#15803D</color>
+<color name="success_green">#22C55E</color>
+<color name="primary_red_light">#FCA5A5</color>
+
+
+<!--  Primary Colors  -->
+
+<color name="primary_red_light2">#EF4444</color>
+<!--  Background Colors  -->
+<color name="background_gradient_start">#FDF2F8</color>
+<color name="background_gradient_end">#FCE7F3</color>
+<color name="background_rose_50">#FFF1F2</color>
+
+<!--  Text Colors  -->
+<color name="text_gray_800">#1F2937</color>
+<color name="text_gray_700">#374151</color>
+<color name="text_gray_600">#4B5563</color>
+<color name="text_gray_500">#6B7280</color>
+<color name="text_gray_400">#9CA3AF</color>
+<color name="text_red_600">#DC2626</color>
+<color name="text_red_700">#B91C1C</color>
+<color name="text_red_500">#EF4444</color>
+<!--  Border Colors  -->
+<color name="border_gray_200">#E5E7EB</color>
+<color name="border_red_200">#FECACA</color>
+<color name="border_red_400">#F87171</color>
+<!--  Background Surface Colors  -->
+<color name="bg_gray_50">#EBEAEA</color>
+<color name="bg_red_50">#FEF2F2</color>
+<color name="bg_red_100">#FEE2E2</color>
+<color name="bg_green_50">#F0FDF4</color>
+<color name="bg_green_500">#22C55E</color>
+<!--  Focus Colors  -->
+<color name="focus_red_500">#EF4444</color>
+<color name="focus_red_200">#FECACA</color>
+<!--  Green Colors  -->
+<color name="green_600">#16A34A</color>
+<color name="green_700">#15803D</color>
+<!--  Shadow Colors  -->
+<color name="shadow_light">#33000000</color>
+<color name="shadow_medium">#66000000</color>
+<!--  Transparent  -->
+<color name="transparent">#00000000</color>
+<color name="white_10">#1AFFFFFF</color>
+
+
+<!-- Blood type specific colors -->
+<color name="blood_type_o">#E53E3E</color>
+<color name="blood_type_a">#3182CE</color>
+<color name="blood_type_b">#38A169</color>
+<color name="blood_type_ab">#805AD5</color>
+
+<!-- Additional UI colors -->
+<color name="nav_background">#FFFFFF</color>
+<color name="nav_text">#374151</color>
+<color name="nav_text_selected">#DC2626</color>
+<color name="nav_icon">#6B7280</color>
+<color name="nav_icon_selected">#DC2626</color>
+
+<!-- Status colors -->
+<color name="status_active">#10B981</color>
+<color name="status_inactive">#EF4444</color>
+<color name="status_pending">#F59E0B</color>
+
+<!-- Card colors -->
+<color name="card_border">#E5E7EB</color>
+<color name="card_shadow">#1F29371A</color>
+
+<!-- Text variations -->
+
+<color name="text_tertiary">#9CA3AF</color>
+<color name="text_link">#2563EB</color>
+
+<!-- Success/Error states -->
+<color name="success_bg">#ECFDF5</color>
+<color name="error_bg">#FEF2F2</color>
+<color name="error_text">#991B1B</color>
+<color name="warning_bg">#FFFBEB</color>
+<color name="warning_text">#92400E</color>
+
+
+<!-- Red Color Palette -->
+<color name="red_50">#FEF2F2</color>
+<color name="red_100">#FEE2E2</color>
+<color name="red_200">#FECACA</color>
+<color name="red_600">#DC2626</color>
+<color name="red_700">#B91C1C</color>
+
+
+<!-- Pink Color Palette -->
+<color name="pink_50">#FDF2F8</color>
+
+<!-- Gray Color Palette -->
+<color name="gray_100">#F3F4F6</color>
+<color name="gray_200">#E5E7EB</color>
+<color name="gray_700">#374151</color>
+<color name="gray_800">#1F2937</color>
+
+
+<!-- Rose Color Palette -->
+<color name="rose_50">#FFF1F2</color>
+
+
+
+<!-- Gray Color Palette -->
+
+<color name="gray_500">#6B7280</color>
+<color name="gray_600">#4B5563</color>
+
+
+<!-- Green Color Palette -->
+<color name="green_500">#22C55E</color>
+
+
+<!--&lt;!&ndash;  Primary Colors  &ndash;&gt;-->
+<!--<color name="primary">#DC2626</color>-->
+<!--<color name="primary_dark">#B91C1C</color>-->
+<!--<color name="primary_light">#FCA5A5</color>-->
+<!--&lt;!&ndash;  Background Colors  &ndash;&gt;-->
+
+<!--<color name="white_90">#E6FFFFFF</color>-->
+<!--<color name="white_80">#CCFFFFFF</color>-->
+<!--<color name="white_70">#B3FFFFFF</color>-->
+<!--&lt;!&ndash;  Input Colors  &ndash;&gt;-->
+<!--<color name="input_background">#FFFFFF</color>-->
+<!--<color name="input_stroke_default">#E5E7EB</color>-->
+<!--<color name="input_stroke_focused">#DC2626</color>-->
+<!--&lt;!&ndash;  Status Colors  &ndash;&gt;-->
+<!--<color name="error">#EF4444</color>-->
+<!--<color name="success">#10B981</color>-->
+<!--&lt;!&ndash;  Card Colors  &ndash;&gt;-->
+<!--<color name="card_background">#CCFFFFFF</color>-->
+<!--&lt;!&ndash;  Ripple Effect  &ndash;&gt;-->
+<!--<color name="ripple">#33DC2626</color>-->
+
+
+<!--  Primary Red Colors  -->
+<color name="red_500">#EF4444</color>
+
+<color name="red_800">#991B1B</color>
+<!--  Pink Colors  -->
+
+<color name="pink_100">#FCE7F3</color>
+<color name="pink_600">#DB2777</color>
+<!--  Rose Colors  -->
+
+<!--  Gray Scale  -->
+<color name="gray_50">#F9FAFB</color>
+
+<color name="gray_300">#D1D5DB</color>
+<color name="gray_400">#9CA3AF</color>
+
+<color name="gray_900">#111827</color>
+<!--  White with Transparency  -->
+<color name="white_80">#CCFFFFFF</color>
+<color name="white_90">#E6FFFFFF</color>
+<!--  Background Colors  -->
+<color name="bg_pink_gradient_start">#FEF2F2</color>
+<color name="bg_pink_gradient_middle">#FCE7F3</color>
+<color name="bg_pink_gradient_end">#FFF1F2</color>
+<!--  Hover/Focus States  -->
+
+<!--  Dropdown States  -->
+<color name="dropdown_hover">#FEF2F2</color>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--&lt;!&ndash; Background Colors &ndash;&gt;-->
+    <!--<color name="background_light_pink">#FCE7F3</color>-->
+    <!--<color name="background_white">#FFFFFF</color>-->
+    <!--<color name="background_gray_light">#F9FAFB</color>-->
+
+    <!--&lt;!&ndash; Text Colors &ndash;&gt;-->
+    <!--<color name="text_white">#FFFFFF</color>-->
+    <!--<color name="text_red">#DC2626</color>-->
+
+    <!--&lt;!&ndash; Card Colors &ndash;&gt;-->
+    <!--<color name="card_background">#FFFFFF</color>-->
+    <!--<color name="card_border">#E5E7EB</color>-->
+
+    <!--&lt;!&ndash; Button Colors &ndash;&gt;-->
+    <!--<color name="button_red">#DC2626</color>-->
+    <!--<color name="button_red_pressed">#B91C1C</color>-->
+    <!--<color name="button_secondary">#F3F4F6</color>-->
+    <!--<color name="button_secondary_pressed">#E5E7EB</color>-->
+
+    <!--&lt;!&ndash; Status Colors &ndash;&gt;-->
+    <!--<color name="warning_yellow">#F59E0B</color>-->
+    <!--<color name="error_red">#EF4444</color>-->
+
+    <!--&lt;!&ndash; Notification Colors &ndash;&gt;-->
+    <!--<color name="notification_dot">#DC2626</color>-->
+    <!--<color name="notification_background">#FEF2F2</color>-->
+
+    <!--&lt;!&ndash; Divider &ndash;&gt;-->
+    <!--<color name="divider_color">#E5E7EB</color>-->
+
+    <!--&lt;!&ndash; Shadow &ndash;&gt;-->
+    <!--<color name="shadow_color">#1F000000</color>-->
+
+    <!--&lt;!&ndash; Transparent &ndash;&gt;-->
+    <!--<color name="transparent">#00000000</color>-->
+    <!--<color name="semi_transparent_black">#80000000</color>-->

@@ -1,0 +1,6 @@
+
+<!-- user_id_icon_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#DC2626" />
+    <corners android:radius="6dp" />
+</shape>

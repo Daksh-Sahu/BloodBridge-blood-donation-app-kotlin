@@ -1,0 +1,10 @@
+<!-- ic_scale.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M12,3A4,4 0,0 1,16 7H20A2,2 0,0 1,22 9V10A1,1 0,0 1,21 11H3A1,1 0,0 1,2 10V9A2,2 0,0 1,4 7H8A4,4 0,0 1,12 3M12,5A2,2 0,0 0,10 7H14A2,2 0,0 0,12 5M4,12H20V20A2,2 0,0 1,18 22H6A2,2 0,0 1,4 20V12Z" />
+</vector>

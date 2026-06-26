@@ -1,0 +1,5 @@
+<!-- profile_avatar_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bg_gray_50" />
+    <corners android:radius="32dp" />
+</shape>
