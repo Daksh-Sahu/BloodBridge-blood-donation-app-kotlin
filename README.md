@@ -92,12 +92,44 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 
 # 📱 Screenshots
 
-<p align="center">
-  <img src="assets/screenshots/01_login_options_page.jpg" width='220' />
-  <img src="assets/screenshots/02_public_user_login.jpg" width='220'/>
-  <img src="assets/screenshots/03_public_user_dashboard.jpg" width='220'/>
- 
-</p>
+<table align="center">
+<tr>
+<td align="center"><b>Login Options</b></td>
+<td align="center"><b>Public User Login</b></td>
+<td align="center"><b>Public User Dashboard</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/screenshots/01_login_options_page.jpg" width="180"></td>
+<td><img src="assets/screenshots/02_public_user_login.jpg" width="180"></td>
+<td><img src="assets/screenshots/03_public_user_dashboard.jpg" width="180"></td>
+</tr>
+
+<tr>
+<td align="center"><b>Donate Blood</b></td>
+<td align="center"><b>Blood Request</b></td>
+<td align="center"><b>Emergency SOS</b></td>
+</tr>
+
+<tr>
+<td><img src="screenshots/donate.png" width="180"></td>
+<td><img src="screenshots/request.png" width="180"></td>
+<td><img src="screenshots/emergency.png" width="180"></td>
+</tr>
+
+<tr>
+<td align="center"><b>AI Chatbot</b></td>
+<td align="center"><b>Profile</b></td>
+<td align="center"><b>Donation History</b></td>
+</tr>
+
+<tr>
+<td><img src="screenshots/chatbot.png" width="180"></td>
+<td><img src="screenshots/profile.png" width="180"></td>
+<td><img src="screenshots/history.png" width="180"></td>
+</tr>
+
+</table>
 
 ---
 
