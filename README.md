@@ -225,34 +225,12 @@ Integrate advanced Google Maps APIs to enable hospitals to track donors who acce
 
 Provide secure chat and voice calling between hospitals and donors for better coordination during emergencies.
 
-### 🤖 AI-Based Donor Recommendation
-
-Use artificial intelligence to recommend the most suitable donors based on blood type, location, donation history, and eligibility.
 
 ### 🔔 Smart Push Notifications
 
 Deliver personalized notifications based on donor eligibility, nearby emergencies, and upcoming donation schedules.
 
-### 📅 Appointment Scheduling
-
-Allow donors to schedule blood donation appointments with nearby hospitals or blood banks.
-
-### 🌐 Multi-Language Support
-
-Expand accessibility by supporting multiple regional and international languages.
-
-### 📊 Blood Inventory Management
-
-Enable hospitals to manage blood stock levels and availability directly within the application.
-
-### ⌚ Wearable Device Integration
-
-Support wearable devices for health monitoring and donor reminders.
 
 ### 📈 Analytics Dashboard
 
 Provide hospitals with visual insights into donation trends, donor activity, and blood demand.
-
-### ☁ Enhanced Security
-
-Implement advanced encryption, role-based access control, and regular security audits to protect sensitive healthcare information.
