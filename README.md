@@ -180,35 +180,32 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 # 📂 Project Structure
 
 ```text
-BloodBridge
+BloodBridge-blood-donation-app-kotlin
 │
+├── .idea/
+├── .kotlin/
+|
 ├── app/
 │   ├── src/
-│   ├── java/
-│   ├── res/
-│   ├── manifests/
-│
-├── screenshots/
-│   ├── login.png
-│   ├── signup.png
-│   ├── dashboard.png
-│   ├── donate.png
-│   ├── request.png
-│   ├── emergency.png
-│   ├── chatbot.png
-│   └── profile.png
+│   ├── .gitignore
+│   ├── build.gradle.kts
+│   ├── google-services.json
+|   └── proguard-rules.pro
 │
 ├── assets/
-│   └── banner.png
+│   └── screenshots/
 │
+├── docs/
+|   └── reports/
+|
 ├── gradle/
-├── .gradle/
+├── .gitignore
 ├── build.gradle.kts
-├── settings.gradle.kts
 ├── gradle.properties
-├── local.properties
+├── gradle.bat
+├── gradlew
 ├── README.md
-└── LICENSE
+└── settings.gradle.kts
 ```
 
 ---
