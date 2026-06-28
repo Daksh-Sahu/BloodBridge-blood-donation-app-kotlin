@@ -97,24 +97,28 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 <td align="center"><b>Login Options</b></td>
 <td align="center"><b>Public User Login</b></td>
 <td align="center"><b>Public User Dashboard</b></td>
+<td align="center"><b>Public User Side-Menu</b></td>
 </tr>
 
 <tr>
 <td><img src="assets/screenshots/01_login_options_page.jpg" width="180"></td>
 <td><img src="assets/screenshots/02_public_user_login.jpg" width="180"></td>
 <td><img src="assets/screenshots/03_public_user_dashboard.jpg" width="180"></td>
+<td><img src="assets/screenshots/04_public_user_side_menu.jpg" width="180"></td>
 </tr>
 
 <tr>
 <td align="center"><b>Public User Blood request</b></td>
 <td align="center"><b>Public User Donor Page</b></td>
 <td align="center"><b>Public User Chatbot</b></td>
+<td align="center"><b>Public User Donation History Chatbot</b></td>
 </tr>
 
 <tr>
 <td><img src="assets/screenshots/05_public_user_blood_request.jpg" width="180"></td>
 <td><img src="assets/screenshots/06_public_user_donor_page.jpg" width="180"></td>
 <td><img src="assets/screenshots/07_public_user_chatbot.jpg" width="180"></td>
+<td><img src="assets/screenshots/15_public_user_donation_history.jpg" width="180"></td>
 </tr>
 
 <tr>
