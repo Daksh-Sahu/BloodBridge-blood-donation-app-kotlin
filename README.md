@@ -111,7 +111,7 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 <td align="center"><b>Public User Blood request</b></td>
 <td align="center"><b>Public User Donor Page</b></td>
 <td align="center"><b>Public User Chatbot</b></td>
-<td align="center"><b>Public User Donation History Chatbot</b></td>
+<td align="center"><b>Public User Donation History</b></td>
 </tr>
 
 <tr>
