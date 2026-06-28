@@ -93,9 +93,9 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 # 📱 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/01_login_options_page.jpg" />
-  <img src="assets/screenshots/02_public_user_login.jpg"/>
-  <img src="assets/screenshots/03_public_user_dashboard.jpg"/>
+  <img src="assets/screenshots/01_login_options_page.jpg" width='220' />
+  <img src="assets/screenshots/02_public_user_login.jpg" width='220'/>
+  <img src="assets/screenshots/03_public_user_dashboard.jpg" width='220'/>
  
 </p>
 
