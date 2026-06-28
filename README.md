@@ -93,22 +93,12 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 # 📱 Screenshots
 
 > Place all screenshots inside the **screenshots/** folder.
-
-| Login                      | Sign Up                     |
-| -------------------------- | --------------------------- |
-| ![](screenshots/login.png) | ![](screenshots/signup.png) |
-
-| Dashboard                      | Donate Blood                |
-| ------------------------------ | --------------------------- |
-| ![](screenshots/dashboard.png) | ![](screenshots/donate.png) |
-
-| Blood Request                | Emergency SOS                  |
-| ---------------------------- | ------------------------------ |
-| ![](screenshots/request.png) | ![](screenshots/emergency.png) |
-
-| AI Chatbot                   | Profile                      |
-| ---------------------------- | ---------------------------- |
-| ![](screenshots/chatbot.png) | ![](screenshots/profile.png) |
+<p align="center">
+  <img src="screenshots/01_login_options_page.jpg" width="200"/>
+  <img src="screenshots/02_public_user_login.jpg" width="200"/>
+  <img src="screenshots/03_public_user_dashboard.jpg" width="200"/>
+ 
+</p>
 
 ---
 
