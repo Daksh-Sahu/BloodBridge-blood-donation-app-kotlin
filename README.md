@@ -92,11 +92,10 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 
 # 📱 Screenshots
 
-> Place all screenshots inside the **screenshots/** folder.
 <p align="center">
-  <img src="assets/screenshots/01_login_options_page.jpg" width="200"/>
-  <img src="assets/screenshots/02_public_user_login.jpg" width="200"/>
-  <img src="assets/screenshots/03_public_user_dashboard.jpg" width="200"/>
+  <img src="assets/screenshots/01_login_options_page.jpg" />
+  <img src="assets/screenshots/02_public_user_login.jpg"/>
+  <img src="assets/screenshots/03_public_user_dashboard.jpg"/>
  
 </p>
 
