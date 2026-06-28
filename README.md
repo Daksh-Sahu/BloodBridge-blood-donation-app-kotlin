@@ -121,12 +121,14 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 <td align="center"><b>Hospital User Sign-in</b></td>
 <td align="center"><b>Hospital User Details</b></td>
 <td align="center"><b>Hospital User Dashboard</b></td>
+<td align="center"><b>Hospital User Side-Menu</b></td>
 </tr>
 
 <tr>
 <td><img src="assets/screenshots/08_hospital_user_signin.jpg" width="180"></td>
 <td><img src="assets/screenshots/10_hospital_user_details.jpg" width="180"></td>
 <td><img src="assets/screenshots/11_hospital_user_dashboard.jpg" width="180"></td>
+<td><img src="assets/screenshots/12_hospital_user_side_menu.jpg" width="180"></td>
 </tr>
 
 </table>
