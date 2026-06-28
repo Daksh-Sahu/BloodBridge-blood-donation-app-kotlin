@@ -27,6 +27,9 @@
 * [💻 Software Requirements](#-software-requirements)
 * [📂 Project Structure](#-project-structure)
 * [🚀 Future Scope](#-future-scope)
+* [👨‍💻 Author](#-author)
+* [📜 License](#-license)
+
 
 ---
 
@@ -231,3 +234,19 @@ Deliver personalized notifications based on donor eligibility, nearby emergencie
 ### 📈 Analytics Dashboard
 
 Provide hospitals with visual insights into donation trends, donor activity, and blood demand.
+
+---
+
+# 👨‍💻 Author
+Developed with Python to provide a visually engaging and informative internet speed testing experience. <br>
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+**Daksh S** <br>
+📧 **Email:** [daksh.s.blr@gmail.com](mailto:daksh.s.blr@gmail.com) <br>
+💼 **LinkedIn:** https://www.linkedin.com/in/Daksh-Sahu-blr2023 
+
+---
+
+# 📜 License
+Feel free to use, modify, and distribute it for educational and personal purposes.
+---
