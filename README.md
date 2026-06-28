@@ -142,6 +142,38 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 
 ---
 
+# 📂 Project Structure
+
+```text
+BloodBridge-blood-donation-app-kotlin
+│
+├── .idea/
+├── .kotlin/
+|
+├── app/
+│   ├── src/
+│   ├── .gitignore
+│   ├── build.gradle.kts
+│   ├── google-services.json
+|   └── proguard-rules.pro
+│
+├── assets/
+│   └── screenshots/
+│
+├── docs/
+|   └── reports/
+|
+├── gradle/
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── gradle.bat
+├── gradlew
+├── README.md
+└── settings.gradle.kts
+```
+---
+
 # 🛠 Tech Stack
 
 | Category                | Technologies                    |
@@ -178,38 +210,6 @@ Designed with simplicity, reliability, and accessibility in mind, BloodBridge ai
 | Build Tool           | Gradle                                      |
 | Testing              | Android Emulator or Physical Android Device |
 
----
-
-# 📂 Project Structure
-
-```text
-BloodBridge-blood-donation-app-kotlin
-│
-├── .idea/
-├── .kotlin/
-|
-├── app/
-│   ├── src/
-│   ├── .gitignore
-│   ├── build.gradle.kts
-│   ├── google-services.json
-|   └── proguard-rules.pro
-│
-├── assets/
-│   └── screenshots/
-│
-├── docs/
-|   └── reports/
-|
-├── gradle/
-├── .gitignore
-├── build.gradle.kts
-├── gradle.properties
-├── gradle.bat
-├── gradlew
-├── README.md
-└── settings.gradle.kts
-```
 
 ---
 
